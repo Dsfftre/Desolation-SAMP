@@ -1,0 +1,101 @@
+{
+	"user": "Awide",
+	"repo": "Desolation-Roleplay",
+	"entry": "gamemodes/dsrp.pwn",
+	"output": "gamemodes/dsrp.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"pawn-lang/sa-mp-fixes",
+		"pBlueG/SA-MP-MySQL:R41-4",
+		"pawn-lang/YSI-Includes:v5.1",
+		"Y-Less/sscanf:2.10.2-r2",
+		"lassir/bcrypt-samp:v2.2.3",
+		"Southclaws/pawn-env:1.0.1",
+		"Southclaws/pawn-uuid:1.0.1",
+		"samp-incognito/samp-streamer-plugin:v2.9.4",
+		"RogueDrifter/Anti_cheat_pack",
+		"ziggi/FCNPC:v2.0.0-rc.7-03DL",
+		"Open-GTO/textlist:v1.0.2",
+		"Zeex/samp-plugin-crashdetect",
+		"Southclaws/progress2"
+	],
+	"local": true,
+	"builds": [
+		{
+			"name": "dev",
+			"version": "3.10.8",
+			"args": [
+				"-;+",
+				"-(+",
+				"-d3",
+				"-O1",
+				"-Z+"
+			],
+			"constants": {
+				"MAX_NPC": "420",
+				"MAX_PLAYERS": "420"
+			}
+		},
+		{
+			"name": "live",
+			"version": "3.10.8",
+			"args": [
+				"-;+",
+				"-(+",
+				"-d3",
+				"-O1",
+				"-Z+"
+			],
+			"constants": {
+				"MAX_NPC": "420",
+				"MAX_PLAYERS": "420"
+			}
+		}
+	],
+	"runtime": {
+		"version": "0.3.DL",
+		"mode": "main",
+		"echo": "Loading configuration...",
+		"plugins": [
+			"Southclaws/pawn-uuid"
+		],
+		"rcon_password": "awidepro",
+		"port": 7777,
+		"hostname": "Desolation Roleplay",
+		"maxplayers": 420,
+		"language": "English",
+		"mapname": "San Andreas",
+		"weburl": "ds-rp.com",
+		"gamemodetext": "DS-RP",
+		"bind": "127.0.0.1",
+		"announce": true,
+		"lanmode": true,
+		"query": true,
+		"rcon": false,
+		"logqueries": false,
+		"sleep": 5,
+		"maxnpc": 420,
+		"stream_rate": 1250,
+		"stream_distance": 325,
+		"onfoot_rate": 30,
+		"incar_rate": 25,
+		"weapon_rate": 20,
+		"chatlogging": true,
+		"timestamp": true,
+		"messageholelimit": 3000,
+		"messageslimit": 500,
+		"ackslimit": 20000,
+		"playertimeout": 10000,
+		"minconnectiontime": 0,
+		"lagcompmode": 1,
+		"connseedtime": 300000,
+		"db_logging": false,
+		"db_log_queries": false,
+		"conncookies": true,
+		"cookielogging": false,
+		"output": false,
+		"extra": {
+			"long_call_time": "0"
+		}
+	}
+}

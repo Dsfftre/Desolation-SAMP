@@ -1,0 +1,16 @@
+2022-01-08 13:05:38.410229 <info> Debugging level changed: Log trace messages.
+2022-01-08 13:05:38.410229 <trace> Native bcrypt_set_thread_limit() called.
+2022-01-08 13:05:38.410229 <debug> Thread limit set to 2
+2022-01-08 13:06:27.085086 <trace> Native bcrypt_check() called.
+2022-01-08 13:06:27.085086 <debug> Task OnPasswordChecked queued.
+2022-01-08 13:06:27.086086 <trace> Creating a thread for OnPasswordChecked...
+2022-01-08 13:06:27.566075 <trace> Result for OnPasswordChecked: Waiting for a mutex...
+2022-01-08 13:06:27.566075 <debug> Result for OnPasswordChecked: Mutex obtained, adding to the queue.
+2022-01-08 13:06:27.572075 <debug> Calling callback OnPasswordChecked...
+2022-01-08 13:06:27.572075 <trace> Executing callback OnPasswordChecked...
+2022-01-08 13:06:27.572075 <trace>   Callback::exec: 02BA9000
+2022-01-08 13:06:27.572075 <trace>     => Public found.
+2022-01-08 13:06:27.572075 <trace> Native bcrypt_is_equal() called.
+2022-01-08 13:06:27.572075 <trace>   Callback::exec: 02BA9670
+2022-01-08 13:06:27.572075 <trace>     => Public not found.
+2022-01-08 13:11:53.930124 <trace> Unregistered AMX: 02BA9000

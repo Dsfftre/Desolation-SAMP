@@ -1,0 +1,105 @@
+AddSimpleModel(-1, 2633, -2000, "tent.dff", "tent.txd");
+AddSimpleModel(-1, 1281, -2001, "blueumbrella.dff", "blueumbrella.txd");
+AddSimpleModel(-1, 11747, -2002, "syringe.dff", "syringe.txd");
+
+AddSimpleModel(-1, 7023, -2003, "elysium/vgngatesecurity.dff", "elysium/vgnpwrentrnce.txd");
+AddSimpleModel(-1, 2060, -2004, "basebuilding/sandbagbar.dff", "basebuilding/sandbagbar.txd");
+
+AddSimpleModel(-1,6959, -2104, "borderwall2.dff", "borderwall1.txd");
+AddSimpleModel(-1,6959, -2103, "borderwall1.dff", "borderwall2.txd");
+AddSimpleModel(-1,6959, -2105, "gate1.dff", "gate1.txd");
+AddSimpleModel(-1,8229, -2106, "diliwall1.dff", "dilliwall.txd");
+AddSimpleModel(-1,8229, -2107, "diliwall2.dff", "dilliwall.txd");
+AddSimpleModel(-1,8229, -2108, "lugagge1.dff", "lugagge1.txd");
+AddSimpleModel(-1,8229, -2109, "lugagge3.dff", "lugagge3.txd");
+AddSimpleModel(-1,8229, -2110, "lugagge2.dff", "lugagge2.txd");
+AddSimpleModel(-1,8229, -2111, "browning.dff", "browning.txd");
+AddSimpleModel(-1,8229, -2112, "poster.dff", "poster.txd");
+
+AddCharModel(287, 20001, "scpguard.dff", "scpguard.txd");
+AddCharModel(303, 20002, "dudemaf.dff", "dudemaf.txd");
+AddCharModel(100, 20003, "tonazi.dff", "tonazi.txd");
+AddCharModel(303, 20004, "totruth.dff", "totruth.txd");
+AddCharModel(3, 20005, "toandre.dff", "toandre.txd");
+AddCharModel(287, 20006, "toomyst.dff", "toomyst.txd");
+AddCharModel(292, 20007, "awid1.dff", "awid1.txd");
+AddCharModel(65, 20008, "soni1.dff", "soni1.txd");
+AddCharModel(191, 20009, "ellie.dff", "ellie.txd");
+AddCharModel(287, 20010, "ngr/1.dff", "ngr/1.txd");
+AddCharModel(287, 20011, "ngr/2.dff", "ngr/2.txd");
+AddCharModel(287, 20012, "ngr/3.dff", "ngr/3.txd");
+AddCharModel(287, 20013, "ngr/4.dff", "ngr/4.txd");
+AddCharModel(287, 20014, "ngr/5.dff", "ngr/5.txd");
+AddCharModel(287, 20017, "ngr/6.dff", "ngr/6.txd");
+AddCharModel(287, 20018, "ngr/7.dff", "ngr/7.txd");
+AddCharModel(287, 20019, "ngr/8.dff", "ngr/8.txd");
+AddCharModel(311, 20020, "tol/toltenpen.dff", "tol/toltenpen.txd");
+AddCharModel(311, 20021, "tol/tolswat.dff", "tol/tolswat.txd");
+AddCharModel(311, 20022, "tol/tolsfpd1.dff", "tol/tolsfpd1.txd");
+AddCharModel(311, 20023, "tol/tolpulaski.dff", "tol/tolpulaski.txd");
+AddCharModel(311, 20024, "tol/tollvpd1.dff", "tol/tollvpd1.txd");
+AddCharModel(311, 20025, "tol/tollapdpc.dff", "tol/tollapdpc.txd");
+AddCharModel(311, 20026, "tol/tollapd1.dff", "tol/tollapd1.txd");
+AddCharModel(311, 20027, "tol/tolhern.dff", "tol/tolhern.txd");
+AddCharModel(311, 20028, "tol/tollapdna.dff", "tol/tollapd1.txd");
+AddCharModel(311, 20029, "tol/tolsfpdna.dff", "tol/tolsfpd1.txd");
+AddCharModel(100, 20030, "delabike.dff", "delabike.txd");
+
+AddCharModel(191, 20032, "parzival.dff", "parzival.txd");
+AddCharModel(308, 20033, "femaledoctor1.dff", "femaledoctor1.txd");
+AddCharModel(308, 20034, "femaledoctor2.dff", "femaledoctor2.txd");
+AddCharModel(308, 20035, "femaledoctor3.dff", "femaledoctor3.txd");
+AddCharModel(191, 20036, "army_fml.dff", "army_fml.txd");
+AddCharModel(191, 20037, "army_fml_hat.dff", "army_fml_hat.txd");
+AddCharModel(287, 20038, "ngr/specops.dff", "ngr/specops.txd");
+AddCharModel(65, 20039, "Sasha_Miller.dff", "Sasha_Miller.txd");
+
+AddCharModel(191, 20040, "elysium/ely_female_tac.dff", "elysium/ely_female_tac.txd");
+AddCharModel(285, 20041, "elysium/swmyhp2.dff", "elysium/swmyhp2.txd");
+
+AddCharModel(191, 20042, "rebeccasanders.dff", "rebeccasanders.txd");
+
+AddCharModel(311, 20044, "venta2.dff", "venta2.txd");
+
+AddCharModel(136, 25001, "skins/zombies/1.dff", "skins/zombies/1.txd");
+AddCharModel(136, 25002, "skins/zombies/2.dff", "skins/zombies/2.txd");
+AddCharModel(136, 25003, "skins/zombies/3.dff", "skins/zombies/3.txd");
+AddCharModel(136, 25004, "skins/zombies/4.dff", "skins/zombies/4.txd");
+AddCharModel(136, 25005, "skins/zombies/5.dff", "skins/zombies/5.txd");
+AddCharModel(136, 25006, "skins/zombies/6.dff", "skins/zombies/6.txd");
+AddCharModel(136, 25007, "skins/zombies/7.dff", "skins/zombies/7.txd");
+AddCharModel(136, 25008, "skins/zombies/8.dff", "skins/zombies/8.txd");
+AddCharModel(136, 25009, "skins/zombies/9.dff", "skins/zombies/9.txd");
+AddCharModel(136, 25010, "skins/zombies/10.dff", "skins/zombies/10.txd");
+AddCharModel(136, 25011, "skins/zombies/11.dff", "skins/zombies/11.txd");
+AddCharModel(136, 25012, "skins/zombies/12.dff", "skins/zombies/12.txd");
+AddCharModel(136, 25013, "skins/zombies/13.dff", "skins/zombies/13.txd");
+AddCharModel(136, 25014, "skins/zombies/14.dff", "skins/zombies/14.txd");
+AddCharModel(136, 25015, "skins/zombies/15.dff", "skins/zombies/15.txd");
+AddCharModel(136, 25016, "skins/zombies/16.dff", "skins/zombies/16.txd");
+AddCharModel(129, 25017, "skins/zombies/17.dff", "skins/zombies/17.txd");
+AddCharModel(136, 25018, "skins/zombies/18.dff", "skins/zombies/18.txd");
+AddCharModel(136, 25019, "skins/zombies/19.dff", "skins/zombies/19.txd");
+AddCharModel(129, 25020, "skins/zombies/20.dff", "skins/zombies/20.txd");
+
+AddCharModel(5, 25021, "skins/zombies/fat.dff", "skins/zombies/fat.txd");
+
+AddCharModel(136, 25023, "skins/zombies/flamer.dff", "skins/zombies/flamer.txd");
+
+AddCharModel(136, 25024, "skins/zombies/wolf.dff", "skins/zombies/wolf.txd");
+
+AddCharModel(285, 22007, "skins/premium/johnwick.dff", "skins/premium/johnwick.txd");
+
+AddCharModel(285, 22008, "skins/premium/br.dff", "skins/premium/br.txd");
+
+AddCharModel(285, 22009, "skins/premium/yt.dff", "skins/premium/yt.txd");
+
+
+AddCharModel(311, 20044, "scarville/JTF1.dff", "scarville/JTF1.txd");
+AddCharModel(311, 20045, "scarville/JTF2.dff", "scarville/JTF2.txd");
+AddCharModel(311, 20046, "scarville/JTF3.dff", "scarville/JTF3.txd");
+AddCharModel(311, 20047, "scarville/JTF4.dff", "scarville/JTF4.txd");
+
+AddCharModel(311, 20048, "scarville/venta3.dff", "scarville/venta3.txd");
+AddCharModel(311, 20049, "scarville/venta4.dff", "scarville/venta4.txd");
+

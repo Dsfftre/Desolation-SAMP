@@ -1,0 +1,41 @@
+{
+	"gamemodes": [
+		"dsrp"
+	],
+	"filterscripts": [
+	],
+	"plugins": [
+		"crashdetect",
+		"bcrypt-samp",
+		"env",
+		"mysql",
+		"sscanf",
+		"uuid",
+		"streamer",
+		"FCNPC",
+		"nativechecker"
+	],
+	"rcon_password": "banme",
+	"port": 7777,
+	"hostname": "Desolation Infection",
+	"maxplayers": 420,
+	"maxnpc": 420,
+	"stream_rate": 1000,
+	"stream_distance": 325,
+	"onfoot_rate": 30,
+	"incar_rate": 30,
+	"weapon_rate": 30,
+	"chatlogging": false,
+	"timestamp": true,
+	"messageholelimit": 3000,
+	"messageslimit": 500,
+	"ackslimit": 20000,
+	"playertimeout": 10000,
+	"minconnectiontime": 0,
+	"lagcompmode": 1,
+	"extra": {
+		"useartwork": "1",
+		"long_call_time": "0",
+		"profiler_gamemodes": "dsrp"
+	}
+}
